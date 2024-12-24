@@ -6,7 +6,7 @@ import io
 
 def recording(duration):
 	fs = 44100 #sampling frequency
-	print("say something bitch")
+	print("Please speak!")
 	myRec = sd.rec(duration*fs, samplerate=fs, channels=2, dtype="float64")
 	sd.wait()
 	response = 'response.wav'
